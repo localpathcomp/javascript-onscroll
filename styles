@@ -1,0 +1,33 @@
+<style>
+    @media only screen and (min-width: 993px) {
+        #header-wrap {
+            background: transparent;
+            -webkit-box-shadow: 0px 0px 3px rgba(99, 99, 99, 0.0);
+            box-shadow: 0px 0px 3px rgba(99, 99, 99, 0.0);
+            -webkit-transition: all 400ms ease-in-out;
+            -moz-transition: all 400ms ease-in-out;
+            -ms-transition: all 400ms ease-in-out;
+            -o-transition: all 400ms ease-in-out;
+            transition: all 400ms ease-in-out;
+        }
+        .header_bg_show {
+            background: #fff !important;
+            -webkit-box-shadow: 0px 0px 3px rgba(99, 99, 99, 0.) !important;
+            box-shadow: 0px 0px 3px rgba(99, 99, 99, 0.1) !important;
+        }
+        .wsite-elements.wsite-not-footer.wsite-header-elements {
+            margin-top: -180px;
+        }
+        #nav {
+            display: none;
+            -webkit-transition: all 400ms ease-in-out;
+            -moz-transition: all 400ms ease-in-out;
+            -ms-transition: all 400ms ease-in-out;
+            -o-transition: all 400ms ease-in-out;
+            transition: all 400ms ease-in-out;
+        }
+        .nav_show {
+            display: table-cell !important;
+        }
+    }
+</style>
